@@ -1,8 +1,8 @@
-MARY_VERSION=5.2-SNAPSHOT
-MARY_BASE=/home/vojta/marytts
+MARY_VERSION=5.3-SNAPSHOT
+MARY_BASE=/mary/marytts
 VOICE_TOOLS=$(MARY_BASE)/target/marytts-builder-$(MARY_VERSION)/bin/voiceimport.sh
 MARY_SERVER=$(MARY_BASE)/target/marytts-$(MARY_VERSION)/bin/marytts-server
-ROOT_DIR=/home/vojta/marytts-voice-building
+ROOT_DIR=/mary/marytts-voice-building
 
 all: AllophonesExtractor EHMMlabeler LabelPauseDeleter PhoneUnitLabelComputer TranscriptionAligner mary/features.txt PhoneUnitFeatureComputer PhonelabelFeatureAligner HMMVoiceDataPreparation HMMVoiceConfigure HMMVoiceFeatureSelection HMMVoiceMakeData HMMVoiceMakeVoice HMMVoiceCompiler
 

@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testPackageName1" classname="marytts.tools.voiceimport.VoiceCompilerTest" time="0"/>
-  <testcase name="testPackageName2" classname="marytts.tools.voiceimport.VoiceCompilerTest" time="0.001"/>
+  <testcase name="testPackageName1" classname="marytts.tools.voiceimport.VoiceCompilerTest" time="0.001"/>
+  <testcase name="testPackageName2" classname="marytts.tools.voiceimport.VoiceCompilerTest" time="0"/>
   <testcase name="testPackageName3" classname="marytts.tools.voiceimport.VoiceCompilerTest" time="0"/>
 </testsuite>

@@ -2,96 +2,96 @@
 <testng-results skipped="0" failed="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="1387" started-at="2016-09-23T09:05:14Z" finished-at="2016-09-23T09:05:15Z">
+  <suite name="Surefire suite" duration-ms="1215" started-at="2016-09-23T10:12:57Z" finished-at="2016-09-23T10:12:58Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="1387" started-at="2016-09-23T09:05:14Z" finished-at="2016-09-23T09:05:15Z">
+    <test name="Surefire test" duration-ms="1215" started-at="2016-09-23T10:12:57Z" finished-at="2016-09-23T10:12:58Z">
       <class name="marytts.language.en.JPhonemiserIT">
-        <test-method status="PASS" signature="testIsPosPunctuation()[pri:0, instance:testIsPosPunctuation(marytts.language.en.JPhonemiserIT)]" name="testIsPosPunctuation" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsPosPunctuation -->
-        <test-method status="PASS" signature="testMaybePronounceable()[pri:0, instance:testMaybePronounceable(marytts.language.en.JPhonemiserIT)]" name="testMaybePronounceable" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="testMaybePronounceable()[pri:0, instance:testMaybePronounceable(marytts.language.en.JPhonemiserIT)]" name="testMaybePronounceable" duration-ms="1" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMaybePronounceable -->
+        <test-method status="PASS" signature="testIsPosPunctuation()[pri:0, instance:testIsPosPunctuation(marytts.language.en.JPhonemiserIT)]" name="testIsPosPunctuation" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPosPunctuation -->
       </class> <!-- marytts.language.en.JPhonemiserIT -->
       <class name="marytts.language.en.MaryInterfaceEnIT">
-        <test-method status="PASS" signature="convertTextToAcoustparams()[pri:0, instance:convertTextToAcoustparams(marytts.language.en.MaryInterfaceEnIT)]" name="convertTextToAcoustparams" duration-ms="954" started-at="2016-09-23T09:05:14Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="convertTextToAcoustparams()[pri:0, instance:convertTextToAcoustparams(marytts.language.en.MaryInterfaceEnIT)]" name="convertTextToAcoustparams" duration-ms="835" started-at="2016-09-23T10:12:57Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- convertTextToAcoustparams -->
-        <test-method status="PASS" signature="convertTextToPhonemes()[pri:0, instance:convertTextToPhonemes(marytts.language.en.MaryInterfaceEnIT)]" name="convertTextToPhonemes" duration-ms="6" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="convertTextToPhonemes()[pri:0, instance:convertTextToPhonemes(marytts.language.en.MaryInterfaceEnIT)]" name="convertTextToPhonemes" duration-ms="6" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- convertTextToPhonemes -->
-        <test-method status="PASS" signature="convertTextToTargetfeatures()[pri:0, instance:convertTextToTargetfeatures(marytts.language.en.MaryInterfaceEnIT)]" name="convertTextToTargetfeatures" duration-ms="9" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="convertTextToTargetfeatures()[pri:0, instance:convertTextToTargetfeatures(marytts.language.en.MaryInterfaceEnIT)]" name="convertTextToTargetfeatures" duration-ms="10" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- convertTextToTargetfeatures -->
-        <test-method status="PASS" signature="canSelectTargetfeatures()[pri:0, instance:canSelectTargetfeatures(marytts.language.en.MaryInterfaceEnIT)]" name="canSelectTargetfeatures" duration-ms="4" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="canSelectTargetfeatures()[pri:0, instance:canSelectTargetfeatures(marytts.language.en.MaryInterfaceEnIT)]" name="canSelectTargetfeatures" duration-ms="4" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canSelectTargetfeatures -->
       </class> <!-- marytts.language.en.MaryInterfaceEnIT -->
       <class name="marytts.language.en.JTokeniserIT">
-        <test-method status="PASS" signature="testDots1()[pri:0, instance:testDots1(marytts.language.en.JTokeniserIT)]" name="testDots1" duration-ms="1" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="testDots1()[pri:0, instance:testDots1(marytts.language.en.JTokeniserIT)]" name="testDots1" duration-ms="1" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDots1 -->
-        <test-method status="PASS" signature="testDots2()[pri:0, instance:testDots2(marytts.language.en.JTokeniserIT)]" name="testDots2" duration-ms="1" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="testDots2()[pri:0, instance:testDots2(marytts.language.en.JTokeniserIT)]" name="testDots2" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDots2 -->
-        <test-method status="PASS" signature="testDots3()[pri:0, instance:testDots3(marytts.language.en.JTokeniserIT)]" name="testDots3" duration-ms="1" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="testDots3()[pri:0, instance:testDots3(marytts.language.en.JTokeniserIT)]" name="testDots3" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDots3 -->
-        <test-method status="PASS" signature="testExclam()[pri:0, instance:testExclam(marytts.language.en.JTokeniserIT)]" name="testExclam" duration-ms="1" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExclam -->
-        <test-method status="PASS" signature="testQuest()[pri:0, instance:testQuest(marytts.language.en.JTokeniserIT)]" name="testQuest" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="testQuest()[pri:0, instance:testQuest(marytts.language.en.JTokeniserIT)]" name="testQuest" duration-ms="1" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuest -->
-      </class> <!-- marytts.language.en.JTokeniserIT -->
-      <class name="marytts.features.FeatureProcessorIT">
-        <test-method status="PASS" signature="syllableNavigators()[pri:0, instance:syllableNavigators(marytts.features.FeatureProcessorIT)]" name="syllableNavigators" duration-ms="1" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="testExclam()[pri:0, instance:testExclam(marytts.language.en.JTokeniserIT)]" name="testExclam" duration-ms="1" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- syllableNavigators -->
-        <test-method status="PASS" signature="haveAcoustparams()[pri:0, instance:haveAcoustparams(marytts.features.FeatureProcessorIT)]" name="haveAcoustparams" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        </test-method> <!-- testExclam -->
+      </class> <!-- marytts.language.en.JTokeniserIT -->
+      <class name="marytts.features.FeatureProcessorIT">
+        <test-method status="PASS" signature="haveAcoustparams()[pri:0, instance:haveAcoustparams(marytts.features.FeatureProcessorIT)]" name="haveAcoustparams" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- haveAcoustparams -->
-        <test-method status="PASS" signature="phone()[pri:0, instance:phone(marytts.features.FeatureProcessorIT)]" name="phone" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="syllableNavigators()[pri:0, instance:syllableNavigators(marytts.features.FeatureProcessorIT)]" name="syllableNavigators" duration-ms="1" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- syllableNavigators -->
+        <test-method status="PASS" signature="phone()[pri:0, instance:phone(marytts.features.FeatureProcessorIT)]" name="phone" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- phone -->
-        <test-method status="PASS" signature="targetHasMatchingXML()[pri:0, instance:targetHasMatchingXML(marytts.features.FeatureProcessorIT)]" name="targetHasMatchingXML" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="targetHasMatchingXML()[pri:0, instance:targetHasMatchingXML(marytts.features.FeatureProcessorIT)]" name="targetHasMatchingXML" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- targetHasMatchingXML -->
-        <test-method status="PASS" signature="sameNumberOfTargetsAndSegments()[pri:0, instance:sameNumberOfTargetsAndSegments(marytts.features.FeatureProcessorIT)]" name="sameNumberOfTargetsAndSegments" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="sameNumberOfTargetsAndSegments()[pri:0, instance:sameNumberOfTargetsAndSegments(marytts.features.FeatureProcessorIT)]" name="sameNumberOfTargetsAndSegments" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sameNumberOfTargetsAndSegments -->
-        <test-method status="PASS" signature="haveTargets()[pri:0, instance:haveTargets(marytts.features.FeatureProcessorIT)]" name="haveTargets" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="haveTargets()[pri:0, instance:haveTargets(marytts.features.FeatureProcessorIT)]" name="haveTargets" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- haveTargets -->
-        <test-method status="PASS" signature="segmentNavigators()[pri:0, instance:segmentNavigators(marytts.features.FeatureProcessorIT)]" name="segmentNavigators" duration-ms="0" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="segmentNavigators()[pri:0, instance:segmentNavigators(marytts.features.FeatureProcessorIT)]" name="segmentNavigators" duration-ms="0" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- segmentNavigators -->
-        <test-method status="PASS" signature="otherNavigators()[pri:0, instance:otherNavigators(marytts.features.FeatureProcessorIT)]" name="otherNavigators" duration-ms="1" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="otherNavigators()[pri:0, instance:otherNavigators(marytts.features.FeatureProcessorIT)]" name="otherNavigators" duration-ms="1" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherNavigators -->
       </class> <!-- marytts.features.FeatureProcessorIT -->
       <class name="marytts.language.en.OpenNLPPosTaggerIT">
-        <test-method status="PASS" signature="posExample2()[pri:0, instance:posExample2(marytts.language.en.OpenNLPPosTaggerIT)]" name="posExample2" duration-ms="363" started-at="2016-09-23T09:05:15Z" finished-at="2016-09-23T09:05:15Z">
+        <test-method status="PASS" signature="posExample2()[pri:0, instance:posExample2(marytts.language.en.OpenNLPPosTaggerIT)]" name="posExample2" duration-ms="314" started-at="2016-09-23T10:12:58Z" finished-at="2016-09-23T10:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- posExample2 -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.416" tests="83" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.316" tests="83" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -58,19 +58,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetInvalidAllophone" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.002"/>
-  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.008"/>
+  <testcase name="testGetInvalidAllophone" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.003"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.007"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testLegacySyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testLegacySyllabifyWithoutNucleus" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testLoadOnceReuse" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testLoadOnceReuse" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testLoadedIsAvailable" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
@@ -78,9 +78,10 @@
   <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitAllophoneString" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
@@ -89,10 +90,7 @@
   <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSplitIntoAllophoneList" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophoneListWithInvalidInput" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
@@ -100,6 +98,16 @@
   <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSplitIntoAllophones" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
+  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
@@ -111,32 +119,24 @@
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0.001"/>
   <testcase name="testSyllabify" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabifyWithEmptyInput" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testSyllabifyWithoutNucleus" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
   <testcase name="testUnloadedIsUnavailable" classname="marytts.modules.phonemiser.AllophoneSetTest" time="0"/>
-  <testcase name="validatingParseStream on validatingParseStream(marytts.util.dom.DomUtilsTest)" classname="marytts.util.dom.DomUtilsTest" time="0.053"/>
-  <testcase name="validatingParseString on validatingParseString(marytts.util.dom.DomUtilsTest)" classname="marytts.util.dom.DomUtilsTest" time="0.017"/>
+  <testcase name="validatingParseStream on validatingParseStream(marytts.util.dom.DomUtilsTest)" classname="marytts.util.dom.DomUtilsTest" time="0.038"/>
+  <testcase name="validatingParseString on validatingParseString(marytts.util.dom.DomUtilsTest)" classname="marytts.util.dom.DomUtilsTest" time="0.014"/>
   <testcase name="tooLargeList on tooLargeList(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="maxListContainsString on maxListContainsString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="smallListDoesntContainString on smallListDoesntContainString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
-  <testcase name="maxListContainsByte on maxListContainsByte(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="maxListContainsByte on maxListContainsByte(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0.001"/>
   <testcase name="maxListLength on maxListLength(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="maxListCompareString on maxListCompareString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="smallListContainsString on smallListContainsString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="smallListContainsByte on smallListContainsByte(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="canCreateMaxList on canCreateMaxList(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
-  <testcase name="maxListDoesntContainString on maxListDoesntContainString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
+  <testcase name="maxListDoesntContainString on maxListDoesntContainString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0.001"/>
   <testcase name="smallListCompareString on smallListCompareString(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="smallListDoesntContainByte on smallListDoesntContainByte(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>
   <testcase name="smallListLength on smallListLength(marytts.util.string.ByteStringTranslatorTest)" classname="marytts.util.string.ByteStringTranslatorTest" time="0"/>

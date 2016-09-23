@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: marytts.config.MaryConfigTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec - in marytts.config.MaryConfigTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in marytts.config.MaryConfigTest

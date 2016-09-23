@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="canReadWithXwavesLabelfileReader" classname="marytts.signalproc.analysis.LabelsTest" time="0.002"/>
+  <testcase name="canReadWithXwavesLabelfileReader" classname="marytts.signalproc.analysis.LabelsTest" time="0.003"/>
   <testcase name="copyConstructor" classname="marytts.signalproc.analysis.LabelsTest" time="0"/>
   <testcase name="indexFromTime" classname="marytts.signalproc.analysis.LabelsTest" time="0"/>
   <testcase name="canReadLabFile" classname="marytts.signalproc.analysis.LabelsTest" time="0"/>

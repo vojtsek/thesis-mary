@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="marytts.unitselection.data.TimelineTest" time="0.053" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="marytts.unitselection.data.TimelineTest" time="0.046" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -58,18 +58,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGet" classname="marytts.unitselection.data.TimelineTest" time="0.008"/>
-  <testcase name="testSkip" classname="marytts.unitselection.data.TimelineTest" time="0.001"/>
+  <testcase name="testGet" classname="marytts.unitselection.data.TimelineTest" time="0.006"/>
+  <testcase name="testSkip" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="numDatagrams" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="procHeader" classname="marytts.unitselection.data.TimelineTest" time="0"/>
-  <testcase name="cannotGetAfterLastDatagram" classname="marytts.unitselection.data.TimelineTest" time="0.002"/>
-  <testcase name="canReadLongDatagrams1" classname="marytts.unitselection.data.TimelineTest" time="0.004"/>
-  <testcase name="canReadLongDatagrams2" classname="marytts.unitselection.data.TimelineTest" time="0.005"/>
-  <testcase name="canReadLongDatagram" classname="marytts.unitselection.data.TimelineTest" time="0.01"/>
+  <testcase name="cannotGetAfterLastDatagram" classname="marytts.unitselection.data.TimelineTest" time="0.001"/>
+  <testcase name="canReadLongDatagrams1" classname="marytts.unitselection.data.TimelineTest" time="0.001"/>
+  <testcase name="canReadLongDatagrams2" classname="marytts.unitselection.data.TimelineTest" time="0.001"/>
+  <testcase name="canReadLongDatagram" classname="marytts.unitselection.data.TimelineTest" time="0.006"/>
   <testcase name="otherSampleRate" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="cannotGetAfterLastDatagrams" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="getLastDatagrams" classname="marytts.unitselection.data.TimelineTest" time="0"/>
-  <testcase name="getDatagrams1" classname="marytts.unitselection.data.TimelineTest" time="0"/>
+  <testcase name="getDatagrams1" classname="marytts.unitselection.data.TimelineTest" time="0.001"/>
   <testcase name="getDatagrams2" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="getDatagrams3" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="getDatagrams4" classname="marytts.unitselection.data.TimelineTest" time="0"/>
@@ -77,7 +77,7 @@
   <testcase name="getDatagrams6" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="getDatagrams7" classname="marytts.unitselection.data.TimelineTest" time="0"/>
   <testcase name="getLastDatagram" classname="marytts.unitselection.data.TimelineTest" time="0"/>
-  <testcase name="gotoTime1" classname="marytts.unitselection.data.TimelineTest" time="0"/>
+  <testcase name="gotoTime1" classname="marytts.unitselection.data.TimelineTest" time="0.001"/>
   <testcase name="gotoTime2" classname="marytts.unitselection.data.TimelineTest" time="0"/>
-  <testcase name="gotoTime3" classname="marytts.unitselection.data.TimelineTest" time="0.001"/>
+  <testcase name="gotoTime3" classname="marytts.unitselection.data.TimelineTest" time="0"/>
 </testsuite>

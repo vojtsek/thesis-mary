@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="62" started-at="2016-09-23T09:05:20Z" finished-at="2016-09-23T09:05:20Z">
+  <suite name="Surefire suite" duration-ms="59" started-at="2016-09-23T10:13:03Z" finished-at="2016-09-23T10:13:03Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="62" started-at="2016-09-23T09:05:20Z" finished-at="2016-09-23T09:05:20Z">
+    <test name="Surefire test" duration-ms="59" started-at="2016-09-23T10:13:03Z" finished-at="2016-09-23T10:13:03Z">
       <class name="marytts.language.fr.PreprocessTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="setUpBeforeClass" is-config="true" duration-ms="82" started-at="2016-09-23T09:05:20Z" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="setUpBeforeClass" is-config="true" duration-ms="76" started-at="2016-09-23T10:13:03Z" finished-at="2016-09-23T10:13:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="10" started-at="2016-09-23T09:05:20Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="10" started-at="2016-09-23T10:13:03Z" data-provider="NumExpandData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -27,39 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandNum -->
-        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:20Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[42]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[quarante-deux]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExpandNum -->
-        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:20Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[trois]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExpandNum -->
-        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:20Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T10:13:03Z" data-provider="NumExpandData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +43,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandNum -->
-        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:20Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T10:13:03Z" data-provider="NumExpandData" finished-at="2016-09-23T10:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[quarante-deux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T10:13:03Z" data-provider="NumExpandData" finished-at="2016-09-23T10:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trois]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T10:13:03Z" data-provider="NumExpandData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandNum -->
-        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T09:05:20Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T10:13:03Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandOrdinal -->
-        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T09:05:20Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T10:13:03Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandOrdinal -->
-        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T09:05:20Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T10:13:03Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandOrdinal -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="24" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="23" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -203,7 +203,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="3" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -235,7 +235,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="2" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -251,7 +251,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>
@@ -283,7 +283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpellout -->
-        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T09:05:20Z" data-provider="DocData" finished-at="2016-09-23T09:05:20Z">
+        <test-method status="PASS" signature="testSpellout(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.fr.PreprocessTest@2ed94a8b]" name="testSpellout" duration-ms="1" started-at="2016-09-23T10:13:03Z" data-provider="DocData" finished-at="2016-09-23T10:13:03Z">
           <params>
             <param index="0">
               <value>

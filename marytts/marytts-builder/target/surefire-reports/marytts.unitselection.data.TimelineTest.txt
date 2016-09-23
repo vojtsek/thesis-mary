@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: marytts.unitselection.data.TimelineTest
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec - in marytts.unitselection.data.TimelineTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in marytts.unitselection.data.TimelineTest

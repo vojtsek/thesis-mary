@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="marytts.util.MaryCacheTest" time="0.691" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="marytts.util.MaryCacheTest" time="0.716" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -58,10 +58,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="canInsertAgain" classname="marytts.util.MaryCacheTest" time="0"/>
-  <testcase name="isPersistent" classname="marytts.util.MaryCacheTest" time="0.177"/>
-  <testcase name="lookupAudio" classname="marytts.util.MaryCacheTest" time="0"/>
-  <testcase name="lookupText" classname="marytts.util.MaryCacheTest" time="0.001"/>
-  <testcase name="lookupText2" classname="marytts.util.MaryCacheTest" time="0"/>
-  <testcase name="zzz_isClearable" classname="marytts.util.MaryCacheTest" time="0.178"/>
+  <testcase name="canInsertAgain" classname="marytts.util.MaryCacheTest" time="0.001"/>
+  <testcase name="isPersistent" classname="marytts.util.MaryCacheTest" time="0.206"/>
+  <testcase name="lookupAudio" classname="marytts.util.MaryCacheTest" time="0.001"/>
+  <testcase name="lookupText" classname="marytts.util.MaryCacheTest" time="0.002"/>
+  <testcase name="lookupText2" classname="marytts.util.MaryCacheTest" time="0.001"/>
+  <testcase name="zzz_isClearable" classname="marytts.util.MaryCacheTest" time="0.167"/>
 </testsuite>

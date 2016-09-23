@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.313" tests="42" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.831" tests="42" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -58,46 +58,46 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testExpandAbbrev" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandAbbrev" classname="marytts.language.en.PreprocessTest" time="0"/>
+  <testcase name="testExpandAbbrev" classname="marytts.language.en.PreprocessTest" time="0.001"/>
+  <testcase name="testExpandAbbrev" classname="marytts.language.en.PreprocessTest" time="0.001"/>
   <testcase name="testExpandAbbrev" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandConsonants" classname="marytts.language.en.PreprocessTest" time="0.008"/>
-  <testcase name="testExpandDate" classname="marytts.language.en.PreprocessTest" time="0.053"/>
+  <testcase name="testExpandDate" classname="marytts.language.en.PreprocessTest" time="0.048"/>
   <testcase name="testExpandDate" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandHashtag" classname="marytts.language.en.PreprocessTest" time="0"/>
+  <testcase name="testExpandNum" classname="marytts.language.en.PreprocessTest" time="0.001"/>
   <testcase name="testExpandNum" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandNum" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandNum" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandNum" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandNum" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandNum" classname="marytts.language.en.PreprocessTest" time="0"/>
+  <testcase name="testExpandNumWord" classname="marytts.language.en.PreprocessTest" time="0.001"/>
   <testcase name="testExpandNumWord" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandNumWord" classname="marytts.language.en.PreprocessTest" time="0.004"/>
   <testcase name="testExpandNumberS" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandOrdinal" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandOrdinal" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandOrdinal" classname="marytts.language.en.PreprocessTest" time="0.001"/>
-  <testcase name="testExpandRange" classname="marytts.language.en.PreprocessTest" time="0"/>
+  <testcase name="testExpandOrdinal" classname="marytts.language.en.PreprocessTest" time="0"/>
+  <testcase name="testExpandRange" classname="marytts.language.en.PreprocessTest" time="0.001"/>
+  <testcase name="testExpandRealNum" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandRealNum" classname="marytts.language.en.PreprocessTest" time="0.001"/>
   <testcase name="testExpandRealNum" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandRealNum" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandRealNum" classname="marytts.language.en.PreprocessTest" time="0.001"/>
+  <testcase name="testExpandTime" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandTime" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandTime" classname="marytts.language.en.PreprocessTest" time="0.001"/>
   <testcase name="testExpandTime" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandTime" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandURL" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandUnknownAbbrev" classname="marytts.language.en.PreprocessTest" time="0"/>
+  <testcase name="testExpandUnknownAbbrev" classname="marytts.language.en.PreprocessTest" time="0.001"/>
   <testcase name="testExpandYear" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandYear" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandYear" classname="marytts.language.en.PreprocessTest" time="0"/>
   <testcase name="testExpandYear" classname="marytts.language.en.PreprocessTest" time="0"/>
-  <testcase name="testExpandYearBCAD" classname="marytts.language.en.PreprocessTest" time="0"/>
+  <testcase name="testExpandYearBCAD" classname="marytts.language.en.PreprocessTest" time="0.002"/>
   <testcase name="testOneWord" classname="marytts.language.en.PreprocessTest" time="0.015"/>
-  <testcase name="canGet on canGet(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0"/>
+  <testcase name="canGet on canGet(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0.001"/>
   <testcase name="haveLanguageConfig2 on haveLanguageConfig2(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0"/>
   <testcase name="hasAllophoneSet on hasAllophoneSet(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0.001"/>
   <testcase name="hasEnglishLocale on hasEnglishLocale(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0.001"/>
-  <testcase name="isNotMainConfig on isNotMainConfig(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0.001"/>
+  <testcase name="isNotMainConfig on isNotMainConfig(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0"/>
   <testcase name="haveLanguageConfig on haveLanguageConfig(marytts.language.en.EnglishConfigTest)" classname="marytts.language.en.EnglishConfigTest" time="0"/>
 </testsuite>

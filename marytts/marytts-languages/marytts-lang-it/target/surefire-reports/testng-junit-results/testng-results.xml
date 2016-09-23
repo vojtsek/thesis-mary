@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="38" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+  <suite name="Surefire suite" duration-ms="39" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="38" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+    <test name="Surefire test" duration-ms="39" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
       <class name="marytts.language.it.ItalianConfigTest">
-        <test-method status="PASS" signature="hasItalianLocale()[pri:0, instance:hasItalianLocale(marytts.language.it.ItalianConfigTest)]" name="hasItalianLocale" duration-ms="5" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="hasItalianLocale()[pri:0, instance:hasItalianLocale(marytts.language.it.ItalianConfigTest)]" name="hasItalianLocale" duration-ms="5" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hasItalianLocale -->
-        <test-method status="PASS" signature="canGet()[pri:0, instance:canGet(marytts.language.it.ItalianConfigTest)]" name="canGet" duration-ms="3" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="canGet()[pri:0, instance:canGet(marytts.language.it.ItalianConfigTest)]" name="canGet" duration-ms="3" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canGet -->
-        <test-method status="PASS" signature="isNotMainConfig()[pri:0, instance:isNotMainConfig(marytts.language.it.ItalianConfigTest)]" name="isNotMainConfig" duration-ms="1" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="isNotMainConfig()[pri:0, instance:isNotMainConfig(marytts.language.it.ItalianConfigTest)]" name="isNotMainConfig" duration-ms="1" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNotMainConfig -->

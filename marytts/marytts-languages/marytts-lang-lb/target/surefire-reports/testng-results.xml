@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="27" passed="27">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="394" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:23Z">
+  <suite name="Surefire suite" duration-ms="381" started-at="2016-09-23T10:13:05Z" finished-at="2016-09-23T10:13:06Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="394" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:23Z">
+    <test name="Surefire test" duration-ms="381" started-at="2016-09-23T10:13:05Z" finished-at="2016-09-23T10:13:06Z">
       <class name="marytts.language.lb.LuxembourgishPreprocessTest">
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="25" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="31" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
           <params>
             <param index="0">
               <value>
@@ -23,71 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="1" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[véier]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dräi]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[zwee]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[42]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[zweeavéierzeg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +39,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[véier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dräi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zwee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zweeavéierzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T10:13:05Z" data-provider="cardinalExpandData" finished-at="2016-09-23T10:13:05Z">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpandCardinal -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="196" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="179" started-at="2016-09-23T10:13:05Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="11" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="11" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="7" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="10" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -231,7 +231,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="7" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -247,7 +247,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="10" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="9" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -279,7 +279,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="6" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -295,7 +295,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="6" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="7" started-at="2016-09-23T10:13:06Z" data-provider="docData" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -313,15 +313,15 @@
         </test-method> <!-- testProcess -->
       </class> <!-- marytts.language.lb.LuxembourgishPreprocessTest -->
       <class name="marytts.language.lb.LuxembourgishPhonemiserTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="setUp" is-config="true" duration-ms="145" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="setUp" is-config="true" duration-ms="146" started-at="2016-09-23T10:13:05Z" finished-at="2016-09-23T10:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="setUp" is-config="true" duration-ms="49" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="setUp" is-config="true" duration-ms="53" started-at="2016-09-23T10:13:05Z" finished-at="2016-09-23T10:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="20" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="19" started-at="2016-09-23T10:13:06Z" data-provider="data" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T10:13:06Z" data-provider="data" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -373,7 +373,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T10:13:06Z" data-provider="data" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -399,7 +399,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:23Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T10:13:06Z" data-provider="data" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -425,7 +425,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcess -->
-        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:23Z" data-provider="data" finished-at="2016-09-23T09:05:23Z">
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="8" started-at="2016-09-23T10:13:06Z" data-provider="data" finished-at="2016-09-23T10:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -453,15 +453,15 @@
         </test-method> <!-- testProcess -->
       </class> <!-- marytts.language.lb.LuxembourgishPhonemiserTest -->
       <class name="marytts.language.lb.LuxembourgishConfigTest">
-        <test-method status="PASS" signature="canGet()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="canGet" duration-ms="1" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="canGet()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="canGet" duration-ms="1" started-at="2016-09-23T10:13:05Z" finished-at="2016-09-23T10:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canGet -->
-        <test-method status="PASS" signature="hasLuxembourgishLocale()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="hasLuxembourgishLocale" duration-ms="1" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="hasLuxembourgishLocale()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="hasLuxembourgishLocale" duration-ms="2" started-at="2016-09-23T10:13:05Z" finished-at="2016-09-23T10:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hasLuxembourgishLocale -->
-        <test-method status="PASS" signature="isNotMainConfig()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="isNotMainConfig" duration-ms="1" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+        <test-method status="PASS" signature="isNotMainConfig()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="isNotMainConfig" duration-ms="1" started-at="2016-09-23T10:13:05Z" finished-at="2016-09-23T10:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNotMainConfig -->

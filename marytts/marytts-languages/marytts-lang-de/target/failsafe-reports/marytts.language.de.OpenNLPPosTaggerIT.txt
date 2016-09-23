@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: marytts.language.de.OpenNLPPosTaggerIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 sec - in marytts.language.de.OpenNLPPosTaggerIT
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 sec - in marytts.language.de.OpenNLPPosTaggerIT

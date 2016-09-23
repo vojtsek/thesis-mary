@@ -1,9 +1,11 @@
+marytts/MaryInterfaceIT.class
 marytts/tests/modules/MaryModuleTestCase.class
 marytts/util/dom/MaryDomUtilsTest.class
 marytts/config/MaryConfigTest.class
 marytts/datatypes/MaryDataTest.class
 marytts/tools/install/ComponentDescriptionTest.class
 marytts/tests/junit4/EnvironmentTest.class
+marytts/server/MaryPropertiesIT.class
 marytts/modules/TestOverrideModules.class
 marytts/modules/DummyModule.class
 marytts/signalproc/effects/AudioEffectsTest.class

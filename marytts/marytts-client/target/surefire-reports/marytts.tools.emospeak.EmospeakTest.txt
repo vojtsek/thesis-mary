@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: marytts.tools.emospeak.EmospeakTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec - in marytts.tools.emospeak.EmospeakTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec - in marytts.tools.emospeak.EmospeakTest

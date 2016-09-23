@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="470" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+  <suite name="Surefire suite" duration-ms="478" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="470" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+    <test name="Surefire test" duration-ms="478" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
       <class name="marytts.language.it.JTokeniserIT">
-        <test-method status="PASS" signature="testDots1()[pri:0, instance:testDots1(marytts.language.it.JTokeniserIT)]" name="testDots1" duration-ms="1" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+        <test-method status="PASS" signature="testDots1()[pri:0, instance:testDots1(marytts.language.it.JTokeniserIT)]" name="testDots1" duration-ms="2" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDots1 -->
-        <test-method status="PASS" signature="testDots2()[pri:0, instance:testDots2(marytts.language.it.JTokeniserIT)]" name="testDots2" duration-ms="1" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+        <test-method status="PASS" signature="testDots2()[pri:0, instance:testDots2(marytts.language.it.JTokeniserIT)]" name="testDots2" duration-ms="1" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDots2 -->
-        <test-method status="PASS" signature="testDots3()[pri:0, instance:testDots3(marytts.language.it.JTokeniserIT)]" name="testDots3" duration-ms="1" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+        <test-method status="PASS" signature="testDots3()[pri:0, instance:testDots3(marytts.language.it.JTokeniserIT)]" name="testDots3" duration-ms="2" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDots3 -->
-        <test-method status="PASS" signature="testQuest()[pri:0, instance:testQuest(marytts.language.it.JTokeniserIT)]" name="testQuest" duration-ms="1" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+        <test-method status="PASS" signature="testQuest()[pri:0, instance:testQuest(marytts.language.it.JTokeniserIT)]" name="testQuest" duration-ms="1" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuest -->
-        <test-method status="PASS" signature="testExclam()[pri:0, instance:testExclam(marytts.language.it.JTokeniserIT)]" name="testExclam" duration-ms="1" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+        <test-method status="PASS" signature="testExclam()[pri:0, instance:testExclam(marytts.language.it.JTokeniserIT)]" name="testExclam" duration-ms="1" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExclam -->
       </class> <!-- marytts.language.it.JTokeniserIT -->
       <class name="marytts.language.it.JPhonemiserIT">
-        <test-method status="PASS" signature="testIsPosPunctuation()[pri:0, instance:testIsPosPunctuation(marytts.language.it.JPhonemiserIT)]" name="testIsPosPunctuation" duration-ms="3" started-at="2016-09-23T09:05:19Z" finished-at="2016-09-23T09:05:19Z">
+        <test-method status="PASS" signature="testIsPosPunctuation()[pri:0, instance:testIsPosPunctuation(marytts.language.it.JPhonemiserIT)]" name="testIsPosPunctuation" duration-ms="2" started-at="2016-09-23T10:13:02Z" finished-at="2016-09-23T10:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsPosPunctuation -->

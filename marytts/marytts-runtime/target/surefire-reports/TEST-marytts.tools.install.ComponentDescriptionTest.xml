@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="snapshotNewer1" classname="marytts.tools.install.ComponentDescriptionTest" time="0.002"/>
+  <testcase name="snapshotNewer1" classname="marytts.tools.install.ComponentDescriptionTest" time="0.001"/>
   <testcase name="snapshotNewer2" classname="marytts.tools.install.ComponentDescriptionTest" time="0"/>
   <testcase name="versionNewer" classname="marytts.tools.install.ComponentDescriptionTest" time="0"/>
   <testcase name="newerThanSnapshot" classname="marytts.tools.install.ComponentDescriptionTest" time="0"/>

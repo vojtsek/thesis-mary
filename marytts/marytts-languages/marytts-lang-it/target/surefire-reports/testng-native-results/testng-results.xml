@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="14" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+  <suite name="Surefire suite" duration-ms="14" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="14" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+    <test name="Surefire test" duration-ms="14" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
       <class name="marytts.language.it.PreprocessTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="setUpBeforeClass" is-config="true" duration-ms="6" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="setUpBeforeClass" is-config="true" duration-ms="5" started-at="2016-09-23T10:13:01Z" finished-at="2016-09-23T10:13:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="1" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="1" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="1" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -107,23 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[120000000022]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[cento venti miliardi venti due]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -139,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -155,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="1" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -171,23 +155,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1003000005]]>
+                <![CDATA[120000000022]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[un miliardo tre milioni cinque]]>
+                <![CDATA[cento venti miliardi venti due]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="1" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
@@ -203,7 +187,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumbers -->
-        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003000005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[un miliardo tre milioni cinque]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T10:13:01Z" data-provider="RealNumExpansion" finished-at="2016-09-23T10:13:01Z">
           <params>
             <param index="0">
               <value>
