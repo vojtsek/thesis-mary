@@ -1,0 +1,250 @@
+# GlobalProperties:
+db.allophonesDir ROOT_VOICE_BUILDING/allophones/
+db.basenameFile ROOT_VOICE_BUILDING/basenames.lst
+db.domain general
+db.estDir /usr/share/festival/
+db.gender female
+db.halfphoneFeatureDir ROOT_VOICE_BUILDING/halfphonefeatures/
+db.halfphoneLabDir ROOT_VOICE_BUILDING/halfphonelab/
+db.hplabExtension .hplab
+db.labDir ROOT_VOICE_BUILDING/lab/
+db.labExtension .lab
+db.locale LOCALE
+db.maryServerHost localhost
+db.maryServerPort 59125
+db.marybase MARY_ROOT
+db.marybaseversion 5.2-beta3
+db.maryxmlDir ROOT_VOICE_BUILDING/rawmaryxml/
+db.maryxmlExtension .xml
+db.phoneFeatureDir ROOT_VOICE_BUILDING/phonefeatures/
+db.phoneLabDir ROOT_VOICE_BUILDING/phonelab/
+db.pmDir ROOT_VOICE_BUILDING/pm/
+db.pmExtension .pm
+db.promptAllophonesDir ROOT_VOICE_BUILDING/prompt_allophones/
+db.ptcDir ROOT_VOICE_BUILDING/ptc/
+db.ptcExtension .ptc
+db.rootDir ROOT_VOICE_BUILDING/
+db.samplingrate 16000
+db.textDir ROOT_VOICE_BUILDING/text/
+db.textExtension .txt
+db.vocalizationsDir ROOT_VOICE_BUILDING/vocalizations/
+db.voicename Poppy
+db.wavDir ROOT_VOICE_BUILDING/wav/
+
+# Properties for module PraatPitchmarker:
+PraatPitchmarker.command praat
+PraatPitchmarker.maxPitch 500
+PraatPitchmarker.minPitch 100
+PraatPitchmarker.pmDir ROOT_VOICE_BUILDING/pm/
+PraatPitchmarker.waveDir ROOT_VOICE_BUILDING/wav/
+
+# Properties for module MCEPMaker:
+MCEPMaker.mcepDir ROOT_VOICE_BUILDING/mcep/
+
+# Properties for module Festvox2MaryTranscripts:
+Festvox2MaryTranscripts.transcriptFile ROOT_VOICE_BUILDING/txt.done.data
+
+# Properties for module AllophonesExtractor:
+AllophonesExtractor.styleDefinitionFile 
+
+# Properties for module EHMMLabeler:
+EHMMLabeler.doAlignment true
+EHMMLabeler.doTraining true
+EHMMLabeler.eDir ROOT_VOICE_BUILDING/ehmm/
+EHMMLabeler.ehmmDir MARY_ROOT/lib/external/ehmm/
+EHMMLabeler.nonDetEndFlag 0
+EHMMLabeler.outputLabDir ROOT_VOICE_BUILDING/lab/
+EHMMLabeler.prepareFiles true
+EHMMLabeler.promtallophonesDir ROOT_VOICE_BUILDING/prompt_allophones/
+EHMMLabeler.reTrainFlag false
+EHMMLabeler.startEHMMModelDir /
+
+# Properties for module HTKLabeler:
+HTKLabeler.awkbin /usr/bin/awk
+HTKLabeler.htDir ROOT_VOICE_BUILDING//htk/
+HTKLabeler.htkDir /usr/bin/
+HTKLabeler.maxNoOfIterations 150
+HTKLabeler.maxshortPauseIteration 10
+HTKLabeler.outputLabDir ROOT_VOICE_BUILDING//htk/lab/
+HTKLabeler.promtallophonesDir ROOT_VOICE_BUILDING//prompt_allophones/
+
+# Properties for module LabelPauseDeleter:
+LabelPauseDeleter.eDir ROOT_VOICE_BUILDING/ehmm/
+LabelPauseDeleter.outputLabDir ROOT_VOICE_BUILDING/lab/
+LabelPauseDeleter.pauseDurationThreshold 40
+
+# Properties for module HalfPhoneUnitLabelComputer:
+HalfPhoneUnitLabelComputer.energyBasedTransientSplitting false
+
+# Properties for module FeatureSelection:
+FeatureSelection.featureFile ROOT_VOICE_BUILDING/mary/features.txt
+FeatureSelection.maryServerHost localhost
+FeatureSelection.maryServerPort 59125
+
+# Properties for module PhoneUnitFeatureComputer:
+PhoneUnitFeatureComputer.allophonesDir ROOT_VOICE_BUILDING/allophones/
+PhoneUnitFeatureComputer.featureDir ROOT_VOICE_BUILDING/phonefeatures/
+PhoneUnitFeatureComputer.featureFile ROOT_VOICE_BUILDING/mary/features.txt
+PhoneUnitFeatureComputer.maryServerHost localhost
+PhoneUnitFeatureComputer.maryServerPort 59125
+
+# Properties for module HalfPhoneUnitFeatureComputer:
+HalfPhoneUnitFeatureComputer.allophonesDir ROOT_VOICE_BUILDING/allophones/
+HalfPhoneUnitFeatureComputer.featureDir ROOT_VOICE_BUILDING/halfphonefeatures/
+HalfPhoneUnitFeatureComputer.featureFile ROOT_VOICE_BUILDING/mary/features.txt
+HalfPhoneUnitFeatureComputer.maryServerHost localhost
+HalfPhoneUnitFeatureComputer.maryServerPort 59125
+
+# Properties for module WaveTimelineMaker:
+WaveTimelineMaker.waveTimeline ROOT_VOICE_BUILDING/mary/timeline_waveforms.mry
+
+# Properties for module BasenameTimelineMaker:
+BasenameTimelineMaker.timelineFile ROOT_VOICE_BUILDING/mary/timeline_basenames.mry
+
+# Properties for module MCepTimelineMaker:
+MCepTimelineMaker.mcepDir ROOT_VOICE_BUILDING/mcep/
+MCepTimelineMaker.mcepTimeline ROOT_VOICE_BUILDING/mary/timeline_mcep.mry
+
+# Properties for module PhoneUnitfileWriter:
+PhoneUnitfileWriter.unitFile ROOT_VOICE_BUILDING/mary/phoneUnits.mry
+
+# Properties for module PhoneFeatureFileWriter:
+PhoneFeatureFileWriter.featureDir ROOT_VOICE_BUILDING/phonefeatures/
+PhoneFeatureFileWriter.featureFile ROOT_VOICE_BUILDING/mary/phoneFeatures.mry
+PhoneFeatureFileWriter.unitFile ROOT_VOICE_BUILDING/mary/phoneUnits.mry
+PhoneFeatureFileWriter.weightsFile ROOT_VOICE_BUILDING/mary/phoneUnitFeatureDefinition.txt
+
+# Properties for module DurationCARTTrainer:
+DurationCARTTrainer.durTree ROOT_VOICE_BUILDING/mary/dur.tree
+DurationCARTTrainer.featureFile ROOT_VOICE_BUILDING/mary/phoneFeatures.mry
+DurationCARTTrainer.isHnmTimeline false
+DurationCARTTrainer.stepwiseTraining false
+DurationCARTTrainer.unitFile ROOT_VOICE_BUILDING/mary/phoneUnits.mry
+DurationCARTTrainer.waveTimeline ROOT_VOICE_BUILDING/mary/timeline_waveforms.mry
+
+# Properties for module F0CARTTrainer:
+F0CARTTrainer.f0LeftTreeFile ROOT_VOICE_BUILDING/mary/f0.left.tree
+F0CARTTrainer.f0MidTreeFile ROOT_VOICE_BUILDING/mary/f0.mid.tree
+F0CARTTrainer.f0RightTreeFile ROOT_VOICE_BUILDING/mary/f0.right.tree
+F0CARTTrainer.featureFile ROOT_VOICE_BUILDING/mary/phoneFeatures.mry
+F0CARTTrainer.isHnmTimeline false
+F0CARTTrainer.stepwiseTraining false
+F0CARTTrainer.unitFile ROOT_VOICE_BUILDING/mary/phoneUnits.mry
+F0CARTTrainer.waveTimeline ROOT_VOICE_BUILDING/mary/timeline_waveforms.mry
+
+# Properties for module HalfPhoneUnitfileWriter:
+HalfPhoneUnitfileWriter.unitFile ROOT_VOICE_BUILDING/mary/halfphoneUnits.mry
+
+# Properties for module HalfPhoneFeatureFileWriter:
+HalfPhoneFeatureFileWriter.featureDir ROOT_VOICE_BUILDING/halfphonefeatures/
+HalfPhoneFeatureFileWriter.featureFile ROOT_VOICE_BUILDING/mary/halfphoneFeatures.mry
+HalfPhoneFeatureFileWriter.unitFile ROOT_VOICE_BUILDING/mary/halfphoneUnits.mry
+HalfPhoneFeatureFileWriter.weightsFile ROOT_VOICE_BUILDING/mary/halfphoneUnitFeatureDefinition.txt
+
+# Properties for module F0PolynomialFeatureFileWriter:
+F0PolynomialFeatureFileWriter.f0FeatureFile ROOT_VOICE_BUILDING/mary/syllableF0Polynomials.mry
+F0PolynomialFeatureFileWriter.featureFile ROOT_VOICE_BUILDING/mary/halfphoneFeatures.mry
+F0PolynomialFeatureFileWriter.interpolate true
+F0PolynomialFeatureFileWriter.isHnmTimeline false
+F0PolynomialFeatureFileWriter.maxPitch 500
+F0PolynomialFeatureFileWriter.minPitch 100
+F0PolynomialFeatureFileWriter.polynomOrder 3
+F0PolynomialFeatureFileWriter.showGraph false
+F0PolynomialFeatureFileWriter.unitFile ROOT_VOICE_BUILDING/mary/halfphoneUnits.mry
+F0PolynomialFeatureFileWriter.waveTimeLine ROOT_VOICE_BUILDING/mary/timeline_waveforms.mry
+
+# Properties for module AcousticFeatureFileWriter:
+AcousticFeatureFileWriter.acFeatDef ROOT_VOICE_BUILDING/mary/halfphoneUnitFeatureDefinition_ac.txt
+AcousticFeatureFileWriter.acFeatureFile ROOT_VOICE_BUILDING/mary/halfphoneFeatures_ac.mry
+AcousticFeatureFileWriter.contourFile ROOT_VOICE_BUILDING/mary/syllableF0Polynomials.mry
+AcousticFeatureFileWriter.featureFile ROOT_VOICE_BUILDING/mary/halfphoneFeatures.mry
+AcousticFeatureFileWriter.unitFile ROOT_VOICE_BUILDING/mary/halfphoneUnits.mry
+
+# Properties for module JoinCostFileMaker:
+JoinCostFileMaker.acfeatureFile ROOT_VOICE_BUILDING/mary/halfphoneFeatures_ac.mry
+JoinCostFileMaker.joinCostFile ROOT_VOICE_BUILDING/mary/joinCostFeatures.mry
+JoinCostFileMaker.mcepDir ROOT_VOICE_BUILDING/mcep/
+JoinCostFileMaker.mcepTimeline ROOT_VOICE_BUILDING/mary/timeline_mcep.mry
+JoinCostFileMaker.unitFile ROOT_VOICE_BUILDING/mary/halfphoneUnits.mry
+JoinCostFileMaker.weightsFile ROOT_VOICE_BUILDING/mary/joinCostWeights.txt
+
+# Properties for module CARTBuilder:
+CARTBuilder.acFeatureFile ROOT_VOICE_BUILDING/mary/halfphoneFeatures_ac.mry
+CARTBuilder.callWagon false
+CARTBuilder.cartFile ROOT_VOICE_BUILDING/mary/cart.mry
+CARTBuilder.featureSeqFile ROOT_VOICE_BUILDING/mary/featureSequence.txt
+CARTBuilder.maxLeafSize 10000000
+CARTBuilder.mcepTimeline ROOT_VOICE_BUILDING/mary/timeline_mcep.mry
+CARTBuilder.numProcesses 1
+CARTBuilder.readFeatureSequence true
+CARTBuilder.topLevelTreeFile ROOT_VOICE_BUILDING/mary/topLevel.tree
+CARTBuilder.unitFile ROOT_VOICE_BUILDING/mary/halfphoneUnits.mry
+
+# Properties for module HMMVoiceDataPreparation:
+HMMVoiceDataPreparation.adaptScripts false
+HMMVoiceDataPreparation.userRawDirectory 
+HMMVoiceDataPreparation.userUttDirectory 
+
+# Properties for module HMMVoiceConfigure:
+HMMVoiceConfigure.adaptF0Ranges 'bdl 40 210 clb 130 260 jmk 50 180 rms 40 200 slt 110 280'
+HMMVoiceConfigure.adaptHead b05
+HMMVoiceConfigure.adaptScripts false
+HMMVoiceConfigure.adaptSpkr slt
+HMMVoiceConfigure.adaptSpkrMask */cmu_us_arctic_%%%_*
+HMMVoiceConfigure.adaptTrainSpkr 'bdl clb jmk rms'
+HMMVoiceConfigure.adaptTransKind feat
+HMMVoiceConfigure.adaptTreeKind dec
+HMMVoiceConfigure.configureFile ROOT_VOICE_BUILDING/hts/configure
+HMMVoiceConfigure.dataSet cmu_us_arctic
+HMMVoiceConfigure.fftLen 512
+HMMVoiceConfigure.frameLen 400
+HMMVoiceConfigure.frameShift 80
+HMMVoiceConfigure.freqWarp 0.42
+HMMVoiceConfigure.gamma 0
+HMMVoiceConfigure.lf0BandWidth 1
+HMMVoiceConfigure.lnGain 1
+HMMVoiceConfigure.lowerF0 110
+HMMVoiceConfigure.mgcBandWidth 35
+HMMVoiceConfigure.mgcOrder 34
+HMMVoiceConfigure.normalize 1
+HMMVoiceConfigure.numIterations 5
+HMMVoiceConfigure.numState 5
+HMMVoiceConfigure.numTestFiles 5
+HMMVoiceConfigure.questionsNum 001
+HMMVoiceConfigure.sampfreq 16000
+HMMVoiceConfigure.speaker slt
+HMMVoiceConfigure.strBandWidth 5
+HMMVoiceConfigure.strFilterFileName filters/mix_excitation_5filters_99taps_16Kz.txt
+HMMVoiceConfigure.strOrder 5
+HMMVoiceConfigure.upperF0 280
+HMMVoiceConfigure.version 1
+HMMVoiceConfigure.windowType 1
+
+# Properties for module HMMVoiceFeatureSelection:
+HMMVoiceFeatureSelection.featureFile ROOT_VOICE_BUILDING/mary/features.txt
+HMMVoiceFeatureSelection.hmmFeatureFile ROOT_VOICE_BUILDING/mary/hmmFeatures.txt
+
+# Properties for module HMMVoiceMakeData:
+HMMVoiceMakeData.adaptScripts false
+HMMVoiceMakeData.featureListFile mary/hmmFeatures.txt
+HMMVoiceMakeData.featureListMapFile mary/hmmFeaturesMap.txt
+HMMVoiceMakeData.makeCMPMARY 1
+HMMVoiceMakeData.makeLABELMARY 1
+HMMVoiceMakeData.makeLF0 1
+HMMVoiceMakeData.makeLIST 1
+HMMVoiceMakeData.makeMGC 1
+HMMVoiceMakeData.makeQUESTIONSMARY 1
+HMMVoiceMakeData.makeSCP 1
+HMMVoiceMakeData.makeSTR 1
+HMMVoiceMakeData.questionsFile hts/data/questions/questions_qst001.hed
+HMMVoiceMakeData.questionsUttFile hts/data/questions/questions_utt_qst001.hed
+HMMVoiceMakeData.trickyPhonesFile mary/trickyPhones.txt
+
+# Properties for module VoiceCompiler:
+VoiceCompiler.compileDir ROOT_VOICE_BUILDING/mary/voice-poppy/
+VoiceCompiler.mavenBin /usr/bin/mvn
+
+# Properties for module HMMVoiceCompiler:
+HMMVoiceCompiler.compileDir ROOT_VOICE_BUILDING/mary/voice-poppy-hsmm/
+HMMVoiceCompiler.mavenBin /usr/bin/mvn
+
