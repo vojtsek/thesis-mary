@@ -1,0 +1,13 @@
+/mary/marytts/marytts-runtime/src/test/java/marytts/config/MainConfigTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/util/FeatureUtilsTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/datatypes/MaryDataTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/tests/modules/MaryModuleTestCase.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/features/TargetFeatureComputerTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/tests/junit4/EnvironmentTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/modules/DummyModule.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/signalproc/effects/AudioEffectsTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/tools/install/ComponentDescriptionTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/util/dom/MaryDomUtilsTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/modules/TestOverrideModules.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/config/MaryConfigTest.java
+/mary/marytts/marytts-runtime/src/test/java/marytts/util/MaryCacheTest.java

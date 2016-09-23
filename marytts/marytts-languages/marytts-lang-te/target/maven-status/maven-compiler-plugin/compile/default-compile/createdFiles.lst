@@ -1,0 +1,4 @@
+marytts/language/te/TeluguConfig.class
+marytts/language/te/JTokeniser.class
+marytts/language/te/JPhonemiser.class
+marytts/language/te/phonemiser/TeluguLTS.class

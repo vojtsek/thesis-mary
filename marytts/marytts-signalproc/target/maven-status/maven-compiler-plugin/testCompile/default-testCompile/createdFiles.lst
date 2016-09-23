@@ -1,0 +1,15 @@
+marytts/util/data/text/PraatPitchTierTest.class
+marytts/util/math/ComplexNumberTest.class
+marytts/util/data/audio/AudioDoubleDataSourceTest.class
+marytts/signalproc/process/PitchFrameProviderTest.class
+marytts/util/data/BufferedDoubleDataSourceTest.class
+marytts/signalproc/filter/FilterTest.class
+marytts/signalproc/process/FrameProviderTest.class
+marytts/util/data/ProducingDoubleDataSourceTest$1.class
+marytts/util/math/MathUtilsTest.class
+marytts/signalproc/analysis/LabelsTest.class
+marytts/signalproc/process/FrameOverlapAddTest.class
+marytts/util/data/ProducingDoubleDataSourceTest.class
+marytts/util/data/ProducingDoubleDataSourceTest$TestProducer.class
+marytts/signalproc/process/PhaseVocoderTest.class
+marytts/util/math/FFTTest.class

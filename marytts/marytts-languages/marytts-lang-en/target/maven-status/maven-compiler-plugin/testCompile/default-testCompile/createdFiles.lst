@@ -1,0 +1,7 @@
+marytts/language/en/PreprocessTest.class
+marytts/language/en/OpenNLPPosTaggerIT.class
+marytts/language/en/JTokeniserIT.class
+marytts/features/FeatureProcessorIT.class
+marytts/language/en/MaryInterfaceEnIT.class
+marytts/language/en/JPhonemiserIT.class
+marytts/language/en/EnglishConfigTest.class

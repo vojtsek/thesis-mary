@@ -1,0 +1,10 @@
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/preprocess/REPattern.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/Postlex.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/ItalianConfig.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/preprocess/SpecialCharEP.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/preprocess/ExpansionPattern.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/Prosody.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/preprocess/CompositeEP.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/JTokeniser.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/preprocess/NumberEP.java
+/mary/marytts/marytts-languages/marytts-lang-it/src/main/java/marytts/language/it/Preprocess.java

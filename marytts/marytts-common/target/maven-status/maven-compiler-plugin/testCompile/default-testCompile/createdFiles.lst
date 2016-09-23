@@ -1,0 +1,3 @@
+marytts/util/dom/DomUtilsTest.class
+marytts/util/string/ByteStringTranslatorTest.class
+marytts/modules/phonemiser/AllophoneSetTest.class

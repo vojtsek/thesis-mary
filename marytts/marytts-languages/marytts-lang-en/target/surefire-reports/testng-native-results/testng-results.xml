@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="36" passed="36">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="112" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="112" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+      <class name="marytts.language.en.PreprocessTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="setUpBeforeClass" is-config="true" duration-ms="988" started-at="2016-09-23T09:05:12Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="testExpandAbbrev(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandAbbrev" duration-ms="2" started-at="2016-09-23T09:05:13Z" data-provider="abbrevExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[drive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandAbbrev -->
+        <test-method status="PASS" signature="testExpandAbbrev(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandAbbrev" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="abbrevExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mrs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[missus]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandAbbrev -->
+        <test-method status="PASS" signature="testExpandAbbrev(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandAbbrev" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="abbrevExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mister]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandAbbrev -->
+        <test-method status="PASS" signature="testExpandConsonants()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandConsonants" duration-ms="8" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandConsonants -->
+        <test-method status="PASS" signature="testExpandDate(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandDate" duration-ms="54" started-at="2016-09-23T09:05:13Z" data-provider="dateExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[06/29/1993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[June twenty-ninth nineteen ninety-three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandDate -->
+        <test-method status="PASS" signature="testExpandDate(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandDate" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="dateExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[06/22/1992]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[June twenty-second nineteen ninety-two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandDate -->
+        <test-method status="PASS" signature="testExpandHashtag()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandHashtag" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandHashtag -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[forty-two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="NumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one hundred]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNum -->
+        <test-method status="PASS" signature="testExpandNumWord(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNumWord" duration-ms="1" started-at="2016-09-23T09:05:13Z" data-provider="wordNumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1hello5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one  hello five ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNumWord -->
+        <test-method status="PASS" signature="testExpandNumWord(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNumWord" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="wordNumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one two three  abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNumWord -->
+        <test-method status="PASS" signature="testExpandNumberS()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandNumberS" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandNumberS -->
+        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fourth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandOrdinal -->
+        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[third]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandOrdinal -->
+        <test-method status="PASS" signature="testExpandOrdinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandOrdinal" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="OrdinalExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[second]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandOrdinal -->
+        <test-method status="PASS" signature="testExpandRange()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandRange" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandRange -->
+        <test-method status="PASS" signature="testExpandRealNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandRealNum" duration-ms="1" started-at="2016-09-23T09:05:13Z" data-provider="RealNumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one point eight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandRealNum -->
+        <test-method status="PASS" signature="testExpandRealNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandRealNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="RealNumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03.45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[three point four five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandRealNum -->
+        <test-method status="PASS" signature="testExpandRealNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandRealNum" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="RealNumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[minus two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandRealNum -->
+        <test-method status="PASS" signature="testExpandRealNum(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandRealNum" duration-ms="1" started-at="2016-09-23T09:05:13Z" data-provider="RealNumExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42.56%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[forty-two point five six per cent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandRealNum -->
+        <test-method status="PASS" signature="testExpandTime(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandTime" duration-ms="1" started-at="2016-09-23T09:05:13Z" data-provider="timeExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12:15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[twelve fifteen p m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandTime -->
+        <test-method status="PASS" signature="testExpandTime(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandTime" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="timeExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[09:00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nine a m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandTime -->
+        <test-method status="PASS" signature="testExpandTime(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandTime" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="timeExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00:05am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[twelve oh five a m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandTime -->
+        <test-method status="PASS" signature="testExpandTime(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandTime" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="timeExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eleven thirty p m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandTime -->
+        <test-method status="PASS" signature="testExpandURL()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandURL" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandURL -->
+        <test-method status="PASS" signature="testExpandUnknownAbbrev()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandUnknownAbbrev" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandUnknownAbbrev -->
+        <test-method status="PASS" signature="testExpandYear(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandYear" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="YearExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1918]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nineteen eighteen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandYear -->
+        <test-method status="PASS" signature="testExpandYear(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandYear" duration-ms="1" started-at="2016-09-23T09:05:13Z" data-provider="YearExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[two thousand]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandYear -->
+        <test-method status="PASS" signature="testExpandYear(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandYear" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="YearExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1908]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nineteen oh-eight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandYear -->
+        <test-method status="PASS" signature="testOneWord()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testOneWord" duration-ms="15" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneWord -->
+        <test-method status="PASS" signature="testExpandYear(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandYear" duration-ms="0" started-at="2016-09-23T09:05:13Z" data-provider="YearExpandData" finished-at="2016-09-23T09:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[twenty fifteen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandYear -->
+        <test-method status="PASS" signature="testExpandYearBCAD()[pri:0, instance:marytts.language.en.PreprocessTest@13fee20c]" name="testExpandYearBCAD" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandYearBCAD -->
+      </class> <!-- marytts.language.en.PreprocessTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

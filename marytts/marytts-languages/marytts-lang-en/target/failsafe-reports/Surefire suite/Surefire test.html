@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 23 09:05:14 UTC 2016</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1387 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='marytts.language.en.MaryInterfaceEnIT.canSelectTargetfeatures()'><b>canSelectTargetfeatures</b><br>Test class: marytts.language.en.MaryInterfaceEnIT</td>
+<td></td>
+<td>0</td>
+<td>canSelectTargetfeatures(marytts.language.en.MaryInterfaceEnIT)</td></tr>
+<tr>
+<td title='marytts.language.en.MaryInterfaceEnIT.convertTextToAcoustparams()'><b>convertTextToAcoustparams</b><br>Test class: marytts.language.en.MaryInterfaceEnIT</td>
+<td></td>
+<td>0</td>
+<td>convertTextToAcoustparams(marytts.language.en.MaryInterfaceEnIT)</td></tr>
+<tr>
+<td title='marytts.language.en.MaryInterfaceEnIT.convertTextToPhonemes()'><b>convertTextToPhonemes</b><br>Test class: marytts.language.en.MaryInterfaceEnIT</td>
+<td></td>
+<td>0</td>
+<td>convertTextToPhonemes(marytts.language.en.MaryInterfaceEnIT)</td></tr>
+<tr>
+<td title='marytts.language.en.MaryInterfaceEnIT.convertTextToTargetfeatures()'><b>convertTextToTargetfeatures</b><br>Test class: marytts.language.en.MaryInterfaceEnIT</td>
+<td></td>
+<td>0</td>
+<td>convertTextToTargetfeatures(marytts.language.en.MaryInterfaceEnIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.haveAcoustparams()'><b>haveAcoustparams</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>haveAcoustparams(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.haveTargets()'><b>haveTargets</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>haveTargets(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.otherNavigators()'><b>otherNavigators</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>otherNavigators(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.phone()'><b>phone</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>phone(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.language.en.OpenNLPPosTaggerIT.posExample2()'><b>posExample2</b><br>Test class: marytts.language.en.OpenNLPPosTaggerIT</td>
+<td></td>
+<td>0</td>
+<td>posExample2(marytts.language.en.OpenNLPPosTaggerIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.sameNumberOfTargetsAndSegments()'><b>sameNumberOfTargetsAndSegments</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>sameNumberOfTargetsAndSegments(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.segmentNavigators()'><b>segmentNavigators</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>segmentNavigators(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.syllableNavigators()'><b>syllableNavigators</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>syllableNavigators(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.features.FeatureProcessorIT.targetHasMatchingXML()'><b>targetHasMatchingXML</b><br>Test class: marytts.features.FeatureProcessorIT</td>
+<td></td>
+<td>0</td>
+<td>targetHasMatchingXML(marytts.features.FeatureProcessorIT)</td></tr>
+<tr>
+<td title='marytts.language.en.JTokeniserIT.testDots1()'><b>testDots1</b><br>Test class: marytts.language.en.JTokeniserIT</td>
+<td></td>
+<td>0</td>
+<td>testDots1(marytts.language.en.JTokeniserIT)</td></tr>
+<tr>
+<td title='marytts.language.en.JTokeniserIT.testDots2()'><b>testDots2</b><br>Test class: marytts.language.en.JTokeniserIT</td>
+<td></td>
+<td>0</td>
+<td>testDots2(marytts.language.en.JTokeniserIT)</td></tr>
+<tr>
+<td title='marytts.language.en.JTokeniserIT.testDots3()'><b>testDots3</b><br>Test class: marytts.language.en.JTokeniserIT</td>
+<td></td>
+<td>0</td>
+<td>testDots3(marytts.language.en.JTokeniserIT)</td></tr>
+<tr>
+<td title='marytts.language.en.JTokeniserIT.testExclam()'><b>testExclam</b><br>Test class: marytts.language.en.JTokeniserIT</td>
+<td></td>
+<td>0</td>
+<td>testExclam(marytts.language.en.JTokeniserIT)</td></tr>
+<tr>
+<td title='marytts.language.en.JPhonemiserIT.testIsPosPunctuation()'><b>testIsPosPunctuation</b><br>Test class: marytts.language.en.JPhonemiserIT</td>
+<td></td>
+<td>0</td>
+<td>testIsPosPunctuation(marytts.language.en.JPhonemiserIT)</td></tr>
+<tr>
+<td title='marytts.language.en.JPhonemiserIT.testMaybePronounceable()'><b>testMaybePronounceable</b><br>Test class: marytts.language.en.JPhonemiserIT</td>
+<td></td>
+<td>0</td>
+<td>testMaybePronounceable(marytts.language.en.JPhonemiserIT)</td></tr>
+<tr>
+<td title='marytts.language.en.JTokeniserIT.testQuest()'><b>testQuest</b><br>Test class: marytts.language.en.JTokeniserIT</td>
+<td></td>
+<td>0</td>
+<td>testQuest(marytts.language.en.JTokeniserIT)</td></tr>
+</table><p>
+</body>
+</html>

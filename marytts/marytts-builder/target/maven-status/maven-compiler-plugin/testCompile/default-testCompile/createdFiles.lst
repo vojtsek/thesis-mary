@@ -1,0 +1,11 @@
+marytts/tools/dbselection/CoverageUtilsIT.class
+marytts/tools/voiceimport/DatabaseLayoutTest.class
+marytts/unitselection/data/TestableTimelineReader.class
+marytts/tools/dbselection/WikipediaMarkupCleanerTest.class
+marytts/tools/dbselection/CoverageDefinitionTest.class
+marytts/tools/dbselection/CoverageDefinitionIT.class
+marytts/tools/analysis/CopySynthesisTest.class
+marytts/tools/voiceimport/VoiceCompilerTest.class
+marytts/tools/newlanguage/LTSTrainerTest.class
+marytts/unitselection/data/TimelineTest.class
+marytts/tools/upgrade/UpgradeTest.class

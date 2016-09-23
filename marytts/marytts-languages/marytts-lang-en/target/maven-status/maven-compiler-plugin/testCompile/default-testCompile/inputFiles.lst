@@ -1,0 +1,7 @@
+/mary/marytts/marytts-languages/marytts-lang-en/src/test/java/marytts/language/en/MaryInterfaceEnIT.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/test/java/marytts/language/en/OpenNLPPosTaggerIT.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/test/java/marytts/features/FeatureProcessorIT.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/test/java/marytts/language/en/PreprocessTest.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/test/java/marytts/language/en/JTokeniserIT.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/test/java/marytts/language/en/EnglishConfigTest.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/test/java/marytts/language/en/JPhonemiserIT.java

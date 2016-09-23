@@ -1,0 +1,8 @@
+marytts/language/de/GermanConfigTest.class
+marytts/language/de/JPhonemiserIT.class
+marytts/tests/junit4/language/de/GermanIT.class
+marytts/language/de/OpenNLPPosTaggerIT.class
+marytts/language/de/PreprocessorIT.class
+marytts/language/de/FeatureProcessorIT.class
+marytts/language/de/MaryInterfaceDeIT.class
+marytts/language/de/JTokeniserIT.class

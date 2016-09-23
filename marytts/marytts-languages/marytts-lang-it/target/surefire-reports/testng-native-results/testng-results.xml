@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="14" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="14" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+      <class name="marytts.language.it.PreprocessTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="setUpBeforeClass" is-config="true" duration-ms="6" started-at="2016-09-23T09:05:18Z" finished-at="2016-09-23T09:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="1" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uno]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dieci]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trenta due]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1032]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mille trenta due]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cento uno]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[quindici]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120000000022]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cento venti miliardi venti due]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dieci mila quattro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cento mila cinque cento]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1200000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[un milione due cento mila]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003000005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[un miliardo tre milioni cinque]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uno due tre quattro cinque sei sette otto nove zero uno due tre]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+        <test-method status="PASS" signature="testNumbers(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.it.PreprocessTest@735b5592]" name="testNumbers" duration-ms="0" started-at="2016-09-23T09:05:18Z" data-provider="RealNumExpansion" finished-at="2016-09-23T09:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345678901234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uno due tre quattro cinque sei sette otto nove zero uno due tre quattro cinque sei sette]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumbers -->
+      </class> <!-- marytts.language.it.PreprocessTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

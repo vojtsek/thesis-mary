@@ -8,34 +8,34 @@ all: AllophonesExtractor EHMMlabeler LabelPauseDeleter PhoneUnitLabelComputer Tr
 
 AllophonesExtractor: text/ wav/
     
-    $(VOICE_TOOLS) marytts.tools.voiceimport.AllophonesExtractor
+    $(VOICE_TOOLS) AllophonesExtractor
 
 EHMMlabeler: prompt_allophones/
-    $(VOICE_TOOLS) marytts.tools.voiceimport.EHMMLabeler
+    $(VOICE_TOOLS) EHMMLabeler
 
 LabelPauseDeleter: ehmm/lab/
-    $(VOICE_TOOLS) marytts.tools.voiceimport.LabelPauseDeleter
+    $(VOICE_TOOLS) LabelPauseDeleter
 
 PhoneUnitLabelComputer: lab/
-    $(VOICE_TOOLS) marytts.tools.voiceimport.PhoneUnitLabelComputer
+    $(VOICE_TOOLS) PhoneUnitLabelComputer
 
 TranscriptionAligner: phonelab/
-    $(VOICE_TOOLS) marytts.tools.voiceimport.TranscriptionAligner
+    $(VOICE_TOOLS) TranscriptionAligner
 
 FeatureSelection: allophones/
-    $(VOICE_TOOLS) marytts.tools.voiceimport.FeatureSelection
+    $(VOICE_TOOLS) FeatureSelection
 
 PhoneUnitFeatureComputer: mary/features.txt
-    $(VOICE_TOOLS) marytts.tools.voiceimport.PhoneUnitFeatureComputer
+    $(VOICE_TOOLS) PhoneUnitFeatureComputer
 
 PhonelabelFeatureAligner: phonelab/ phonefeatures/
-    $(VOICE_TOOLS) marytts.tools.voiceimport.PhonelabelFeatureAligner
+    $(VOICE_TOOLS) PhonelabelFeatureAligner
 
 HMMVoiceDataPreparation: phonefeatures/ phonelab/ $(ROOT_DIR)/mary/features.txt $(MARY_BASE)/lib/external/externalBinaries.config
-    $(VOICE_TOOLS) marytts.tools.voiceimport.HMMVoiceDataPreparation
+    $(VOICE_TOOLS) HMMVoiceDataPreparation
 
 HMMVoiceFeatureSelection: $(ROOT_DIR)/mary/features.txt
-    $(VOICE_TOOLS) marytts.tools.voiceimport.HMMVoiceFeatureSelection
+    $(VOICE_TOOLS) HMMVoiceFeatureSelection
 
 HMMVoiceMakeData: $(ROOT_DIR)/mary/hmmFeatures.txt $(ROOT_DIR)/hts/data/
     cd $(ROOT_DIR)/hts/data/
@@ -45,4 +45,4 @@ HMMVoiceMakeVoice: $(ROOT_DIR)/hts/data/
     perl scripts/Training.pl scripts/Config.pm > make-voice.log
 
 HMMVoiceCompiler: $(ROOT_DIR)/hts/data/
-    $(VOICE_TOOLS) marytts.tools.voiceimport.HMMVoiceCompiler
+    $(VOICE_TOOLS) HMMVoiceCompiler

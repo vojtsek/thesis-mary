@@ -1,0 +1,13 @@
+/mary/marytts/marytts-signalproc/src/test/java/marytts/util/math/ComplexNumberTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/signalproc/process/PitchFrameProviderTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/signalproc/filter/FilterTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/util/data/BufferedDoubleDataSourceTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/util/data/ProducingDoubleDataSourceTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/signalproc/process/FrameOverlapAddTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/util/data/audio/AudioDoubleDataSourceTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/signalproc/process/PhaseVocoderTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/util/math/FFTTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/signalproc/analysis/LabelsTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/util/data/text/PraatPitchTierTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/util/math/MathUtilsTest.java
+/mary/marytts/marytts-signalproc/src/test/java/marytts/signalproc/process/FrameProviderTest.java

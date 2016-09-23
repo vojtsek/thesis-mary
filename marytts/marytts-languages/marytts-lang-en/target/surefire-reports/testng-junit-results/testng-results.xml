@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="28" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="28" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+      <class name="marytts.language.en.EnglishConfigTest">
+        <test-method status="PASS" signature="hasAllophoneSet()[pri:0, instance:hasAllophoneSet(marytts.language.en.EnglishConfigTest)]" name="hasAllophoneSet" duration-ms="1" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasAllophoneSet -->
+        <test-method status="PASS" signature="haveLanguageConfig2()[pri:0, instance:haveLanguageConfig2(marytts.language.en.EnglishConfigTest)]" name="haveLanguageConfig2" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- haveLanguageConfig2 -->
+        <test-method status="PASS" signature="canGet()[pri:0, instance:canGet(marytts.language.en.EnglishConfigTest)]" name="canGet" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGet -->
+        <test-method status="PASS" signature="hasEnglishLocale()[pri:0, instance:hasEnglishLocale(marytts.language.en.EnglishConfigTest)]" name="hasEnglishLocale" duration-ms="1" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasEnglishLocale -->
+        <test-method status="PASS" signature="isNotMainConfig()[pri:0, instance:isNotMainConfig(marytts.language.en.EnglishConfigTest)]" name="isNotMainConfig" duration-ms="1" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotMainConfig -->
+        <test-method status="PASS" signature="haveLanguageConfig()[pri:0, instance:haveLanguageConfig(marytts.language.en.EnglishConfigTest)]" name="haveLanguageConfig" duration-ms="0" started-at="2016-09-23T09:05:13Z" finished-at="2016-09-23T09:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- haveLanguageConfig -->
+      </class> <!-- marytts.language.en.EnglishConfigTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

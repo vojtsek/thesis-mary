@@ -1,0 +1,7 @@
+/mary/marytts/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/EnglishConfig.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/prosody/SentenceType.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/Preprocess.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en_US/datatypes/USEnglishDataTypes.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/JTokeniser.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/PronunciationModel.java
+/mary/marytts/marytts-languages/marytts-lang-en/src/main/java/marytts/language/en/Prosody.java

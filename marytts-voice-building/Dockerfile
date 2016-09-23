@@ -7,6 +7,9 @@ RUN apt-get update && \
     apt-get install -y wget && \
     apt-get install -y git && \
     apt-get install -y sudo && \
+    apt-get install -y bc && \
+    apt-get install -y sox && \
+    apt-get install -y tcl-snack && \
     apt-get install -y build-essential
 
 RUN git clone https://github.com/marytts/marytts.git && cd marytts && \

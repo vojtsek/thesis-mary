@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: marytts.client.RemoteMaryInterfaceIT
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.993 sec - in marytts.client.RemoteMaryInterfaceIT

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="394" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:23Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="394" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:23Z">
+      <class name="marytts.language.lb.LuxembourgishPreprocessTest">
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="25" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="1" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[véier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dräi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zwee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zweeavéierzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[véieranzwanzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zwou Milliounen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testExpandCardinal(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testExpandCardinal" duration-ms="0" started-at="2016-09-23T09:05:22Z" data-provider="cardinalExpandData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dräidausendfënnefhonnertsiwenasiechzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpandCardinal -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="196" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="11" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zwee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[z��ng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eelef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="10" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zwanzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zweeav��ierzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="10" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v��ieranzwanzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dr��idausendf��nnefhonnertsiwenasiechzeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fofz��ngt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="testProcess" duration-ms="6" started-at="2016-09-23T09:05:22Z" data-provider="docData" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zwanzegst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+      </class> <!-- marytts.language.lb.LuxembourgishPreprocessTest -->
+      <class name="marytts.language.lb.LuxembourgishPhonemiserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="setUp" is-config="true" duration-ms="145" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:marytts.language.lb.LuxembourgishPreprocessTest@18a70f16]" name="setUp" is-config="true" duration-ms="49" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="20" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aacht]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a: X t]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[content]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lexicon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[den]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d @ n]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[content]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lexicon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[packen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p A k @ n]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[content]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lexicon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="7" started-at="2016-09-23T09:05:22Z" data-provider="data" finished-at="2016-09-23T09:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[glace]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' g l a s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[content]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lexicon_fr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+        <test-method status="PASS" signature="testProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:marytts.language.lb.LuxembourgishPhonemiserTest@62e136d3]" name="testProcess" duration-ms="8" started-at="2016-09-23T09:05:23Z" data-provider="data" finished-at="2016-09-23T09:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MaryTTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m E - R i - t e: - t e: - ' E s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[content]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[userdict]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcess -->
+      </class> <!-- marytts.language.lb.LuxembourgishPhonemiserTest -->
+      <class name="marytts.language.lb.LuxembourgishConfigTest">
+        <test-method status="PASS" signature="canGet()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="canGet" duration-ms="1" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canGet -->
+        <test-method status="PASS" signature="hasLuxembourgishLocale()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="hasLuxembourgishLocale" duration-ms="1" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasLuxembourgishLocale -->
+        <test-method status="PASS" signature="isNotMainConfig()[pri:0, instance:marytts.language.lb.LuxembourgishConfigTest@c8e4bb0]" name="isNotMainConfig" duration-ms="1" started-at="2016-09-23T09:05:22Z" finished-at="2016-09-23T09:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotMainConfig -->
+      </class> <!-- marytts.language.lb.LuxembourgishConfigTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

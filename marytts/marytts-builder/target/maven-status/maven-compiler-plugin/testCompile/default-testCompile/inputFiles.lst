@@ -1,0 +1,11 @@
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/voiceimport/VoiceCompilerTest.java
+/mary/marytts/marytts-builder/src/test/java/marytts/unitselection/data/TestableTimelineReader.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/dbselection/WikipediaMarkupCleanerTest.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/dbselection/CoverageUtilsIT.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/newlanguage/LTSTrainerTest.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/upgrade/UpgradeTest.java
+/mary/marytts/marytts-builder/src/test/java/marytts/unitselection/data/TimelineTest.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/voiceimport/DatabaseLayoutTest.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/dbselection/CoverageDefinitionIT.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/analysis/CopySynthesisTest.java
+/mary/marytts/marytts-builder/src/test/java/marytts/tools/dbselection/CoverageDefinitionTest.java

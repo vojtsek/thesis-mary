@@ -1,0 +1,11 @@
+marytts/language/it/preprocess/NumberEP.class
+marytts/language/it/preprocess/SpecialCharEP$SCEntry.class
+marytts/language/it/ItalianConfig.class
+marytts/language/it/JTokeniser.class
+marytts/language/it/Prosody.class
+marytts/language/it/preprocess/SpecialCharEP.class
+marytts/language/it/preprocess/REPattern.class
+marytts/language/it/preprocess/CompositeEP.class
+marytts/language/it/preprocess/ExpansionPattern.class
+marytts/language/it/Preprocess.class
+marytts/language/it/Postlex.class
