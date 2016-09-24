@@ -37,13 +37,12 @@ HMMVoiceFeatureSelection: $(ROOT_DIR)/mary/features.txt
 	$(VOICE_TOOLS) HMMVoiceFeatureSelection
 
 HMMVoiceMakeData: $(ROOT_DIR)/mary/hmmFeatures.txt $(ROOT_DIR)/hts/data/
-	cd $(ROOT_DIR)/hts
-	make
+	$(VOICE_TOOLS) HMMVoiceMakeData
 	# make mgc lf0 str-mary cmp-mary list scp
 
-HMMVoiceMakeVoice: $(ROOT_DIR)/hts/data/
-	cd $(ROOT_DIR)
-	perl scripts/Training.pl scripts/Config.pm > make-voice.log
+HMMVoiceMakeVoice: $(ROOT_DIR)/hts/data
+	cd $(ROOT_DIR)/hts
+	perl $(ROOT_DIR)/hts/scripts/Training.pl $(ROOT_DIR)/hts/scripts/Config.pm > make-voice.log
 
 HMMVoiceCompiler: $(ROOT_DIR)/hts/data/
 	$(VOICE_TOOLS) HMMVoiceCompiler
