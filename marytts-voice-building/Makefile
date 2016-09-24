@@ -4,7 +4,7 @@ VOICE_TOOLS=$(MARY_BASE)/target/marytts-builder-$(MARY_VERSION)/bin/voiceimport.
 MARY_SERVER=$(MARY_BASE)/target/marytts-$(MARY_VERSION)/bin/marytts-server
 ROOT_DIR=/mary/marytts-voice-building
 
-all: AllophonesExtractor EHMMlabeler LabelPauseDeleter PhoneUnitLabelComputer TranscriptionAligner mary/features.txt PhoneUnitFeatureComputer PhonelabelFeatureAligner HMMVoiceDataPreparation HMMVoiceConfigure HMMVoiceFeatureSelection HMMVoiceMakeData HMMVoiceMakeVoice HMMVoiceCompiler
+all: AllophonesExtractor EHMMlabeler LabelPauseDeleter PhoneUnitLabelComputer TranscriptionAligner mary/features.txt PhoneUnitFeatureComputer PhoneLabelFeatureAligner HMMVoiceDataPreparation mary/hmmFeatures.txt HMMVoiceMakeData HMMVoiceMakeVoice HMMVoiceCompiler
 
 AllophonesExtractor: text/ wav/
 	$(VOICE_TOOLS) AllophonesExtractor
@@ -27,8 +27,8 @@ FeatureSelection: allophones/
 PhoneUnitFeatureComputer: mary/features.txt
 	$(VOICE_TOOLS) PhoneUnitFeatureComputer
 
-PhonelabelFeatureAligner: phonelab/ phonefeatures/
-	$(VOICE_TOOLS) PhonelabelFeatureAligner
+PhoneLabelFeatureAligner: phonelab/ phonefeatures/
+	$(VOICE_TOOLS) PhoneLabelFeatureAligner
 
 HMMVoiceDataPreparation: phonefeatures/ phonelab/ $(ROOT_DIR)/mary/features.txt $(MARY_BASE)/lib/external/externalBinaries.config
 	$(VOICE_TOOLS) HMMVoiceDataPreparation
@@ -37,7 +37,9 @@ HMMVoiceFeatureSelection: $(ROOT_DIR)/mary/features.txt
 	$(VOICE_TOOLS) HMMVoiceFeatureSelection
 
 HMMVoiceMakeData: $(ROOT_DIR)/mary/hmmFeatures.txt $(ROOT_DIR)/hts/data/
-	cd $(ROOT_DIR)/hts/data/
+	cd $(ROOT_DIR)/hts
+	make
+	# make mgc lf0 str-mary cmp-mary list scp
 
 HMMVoiceMakeVoice: $(ROOT_DIR)/hts/data/
 	cd $(ROOT_DIR)
@@ -45,3 +47,7 @@ HMMVoiceMakeVoice: $(ROOT_DIR)/hts/data/
 
 HMMVoiceCompiler: $(ROOT_DIR)/hts/data/
 	$(VOICE_TOOLS) HMMVoiceCompiler
+
+HTS: hts/
+	cd hts/ && chmod +x configure
+	./configure --with-sptk-search-path=/mary/marytts/lib/external/bin/ --with-hts-search-path=/mary/marytts/lib/external/bin/ --with-hts-engine-search-path=/mary/marytts/lib/external/bin/
