@@ -6,6 +6,9 @@ ROOT_DIR=/mary/marytts-voice-building
 
 all: AllophonesExtractor EHMMlabeler LabelPauseDeleter PhoneUnitLabelComputer TranscriptionAligner mary/features.txt PhoneUnitFeatureComputer PhoneLabelFeatureAligner HMMVoiceDataPreparation mary/hmmFeatures.txt HMMVoiceMakeData HMMVoiceMakeVoice HMMVoiceCompiler
 
+clean:
+	rm -rf allophones ehmm/feat ehmm/lab lab phonefeatures phonelab prompt_allophones 
+	cd $(ROOT_DIR)/hts && make clean
 AllophonesExtractor: text/ wav/
 	$(VOICE_TOOLS) AllophonesExtractor
 
