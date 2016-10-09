@@ -4,11 +4,12 @@ VOICE_TOOLS=$(MARY_BASE)/target/marytts-builder-$(MARY_VERSION)/bin/voiceimport.
 MARY_SERVER=$(MARY_BASE)/target/marytts-$(MARY_VERSION)/bin/marytts-server
 ROOT_DIR=/mary/marytts-voice-building
 
-all: AllophonesExtractor EHMMlabeler LabelPauseDeleter PhoneUnitLabelComputer TranscriptionAligner mary/features.txt PhoneUnitFeatureComputer PhoneLabelFeatureAligner HMMVoiceDataPreparation mary/hmmFeatures.txt HMMVoiceMakeData HMMVoiceMakeVoice HMMVoiceCompiler
+all: AllophonesExtractor EHMMlabeler LabelPauseDeleter PhoneUnitLabelComputer TranscriptionAligner mary/features.txt PhoneUnitFeatureComputer PhoneLabelFeatureAligner HMMVoiceDataPreparation mary/hmmFeatures.txt HMMVoiceConfigure HMMVoiceMakeData HMMVoiceMakeVoice HMMVoiceCompiler
 
 clean:
 	rm -rf allophones ehmm/feat ehmm/lab lab phonefeatures phonelab prompt_allophones 
 	cd $(ROOT_DIR)/hts && make clean
+	cd $(ROOT_DIR)/hts/data && rm -rf raw str labels/gen questions
 AllophonesExtractor: text/ wav/
 	$(VOICE_TOOLS) AllophonesExtractor
 
@@ -36,6 +37,8 @@ PhoneLabelFeatureAligner: phonelab/ phonefeatures/
 HMMVoiceDataPreparation: phonefeatures/ phonelab/ $(ROOT_DIR)/mary/features.txt $(MARY_BASE)/lib/external/externalBinaries.config
 	$(VOICE_TOOLS) HMMVoiceDataPreparation
 
+HMMVoiceConfigure:
+	$(VOICE_TOOLS) HMMVoiceConfigure
 HMMVoiceFeatureSelection: $(ROOT_DIR)/mary/features.txt
 	$(VOICE_TOOLS) HMMVoiceFeatureSelection
 
